@@ -1,24 +1,24 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 1080px;
+  min-height: 1088px;
 }
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
   font-size: 3rem;
-  margin: 41px auto 0;
+  width: auto;
+  margin: 20px auto 0;
 }
 
 .u-section-1 .u-text-2 {
   font-size: 1.5rem;
-  margin: 24px auto 0;
+  margin: 40px auto 0;
 }
 
 .u-section-1 .u-group-1 {
-  min-height: 691px;
-  height: auto;
-  --radius: 40px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.1);
+  --radius: 40px;
   width: 1065px;
+  min-height: 691px;
   margin: 60px auto 0;
 }
 
@@ -55,6 +55,7 @@
 
 .u-section-1 .u-input-2 {
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-3 {
@@ -67,6 +68,7 @@
 
 .u-section-1 .u-input-3 {
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-4 {
@@ -78,8 +80,8 @@
 }
 
 .u-section-1 .u-input-4 {
-  height: 48px;
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-5 {
@@ -91,8 +93,8 @@
 }
 
 .u-section-1 .u-input-5 {
-  height: 48px;
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-6 {
@@ -104,8 +106,8 @@
 }
 
 .u-section-1 .u-input-6 {
-  height: 48px;
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-7 {
@@ -118,6 +120,7 @@
 
 .u-section-1 .u-input-7 {
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-8 {
@@ -152,6 +155,7 @@
 
 .u-section-1 .u-input-10 {
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-11 {
@@ -176,8 +180,8 @@
 }
 
 .u-section-1 .u-input-12 {
-  height: 48px;
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-13 {
@@ -190,6 +194,7 @@
 
 .u-section-1 .u-input-13 {
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-14 {
@@ -201,8 +206,8 @@
 }
 
 .u-section-1 .u-input-14 {
-  height: 48px;
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-15 {
@@ -214,8 +219,8 @@
 }
 
 .u-section-1 .u-input-15 {
-  height: 48px;
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-16 {
@@ -227,8 +232,8 @@
 }
 
 .u-section-1 .u-input-16 {
-  height: 48px;
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -238,13 +243,13 @@
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  width: 1271px;
-  margin: 40px auto 12px;
+  width: 1140px;
+  margin: 40px auto 20px;
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 156px;
   --radius: 32px;
+  min-height: 140px;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -263,9 +268,9 @@
 }
 
 .u-section-1 .u-icon-1 {
+  background-image: none;
   width: 40px;
   height: 40px;
-  background-image: none;
   color: rgb(255, 255, 255) !important;
   margin: -15px 0 0 auto;
   padding: 9px;
@@ -277,8 +282,8 @@
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 156px;
   --radius: 32px;
+  min-height: 140px;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -326,8 +331,8 @@
 }
 
 .u-section-1 .u-layout-cell-3 {
-  min-height: 156px;
   --radius: 32px;
+  min-height: 140px;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -342,13 +347,13 @@
 
 .u-section-1 .u-text-7 {
   font-weight: 700;
-  margin: 33px 62px 0 auto;
+  margin: 0 62px 0 auto;
 }
 
 .u-section-1 .u-icon-5 {
+  background-image: none;
   width: 40px;
   height: 40px;
-  background-image: none;
   color: rgb(255, 255, 255) !important;
   margin: -16px 0 0 auto;
   padding: 9px;
@@ -357,57 +362,6 @@
 .u-section-1 .u-text-8 {
   font-weight: 700;
   margin: -15px auto 0 5px;
-}
-
-@media (max-width: 1399px) {
-  .u-section-1 .u-text-1 {
-    width: auto;
-    margin-top: 20px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-top: 40px;
-  }
-
-  .u-section-1 .u-group-1 {
-    height: auto;
-  }
-
-  .u-section-1 .u-input-2 {
-    height: 48px;
-  }
-
-  .u-section-1 .u-input-3 {
-    height: 48px;
-  }
-
-  .u-section-1 .u-input-7 {
-    height: 48px;
-  }
-
-  .u-section-1 .u-input-10 {
-    height: 48px;
-  }
-
-  .u-section-1 .u-input-13 {
-    height: 48px;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    width: 1140px;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 140px;
-  }
-
-  .u-section-1 .u-layout-cell-2 {
-    min-height: 140px;
-  }
-
-  .u-section-1 .u-layout-cell-3 {
-    min-height: 140px;
-  }
 }
 
 @media (max-width: 1199px) {
@@ -603,7 +557,6 @@
 
   .u-section-1 .u-text-7 {
     width: auto;
-    margin-top: 0;
     margin-right: 54px;
   }
 
