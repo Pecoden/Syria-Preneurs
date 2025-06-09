@@ -26531,7 +26531,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: Rubik;
+  font-family: Cairo;
 }
 h1,
 h2,
@@ -26539,7 +26539,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Rubik;
+  font-family: Cairo;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -26560,10 +26560,10 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: Rubik !important;
+  font-family: Cairo !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Rubik !important;
+  font-family: Cairo !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -47039,7 +47039,6 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-nav-1 {
-  font-weight: 400;
   font-size: 1.125rem;
   letter-spacing: normal;
 }
@@ -47082,6 +47081,7 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-header .u-nav-1 {
+    font-weight: 400;
     margin-right: 0;
   }
 
@@ -47192,12 +47192,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-footer .u-text-1 {
-  font-weight: 700;
-  margin: 0 0 0 auto;
-}
-
-.u-footer .u-text-2 {
-  margin: 20px 0 0;
+  margin: 0;
 }
 
 .u-footer .u-btn-1 {
@@ -47205,7 +47200,7 @@ a.u-link.u-text-hover-color-var:hover {
   padding: 0;
 }
 
-.u-footer .u-text-3 {
+.u-footer .u-text-2 {
   margin: 10px 0 0;
 }
 
@@ -47214,7 +47209,7 @@ a.u-link.u-text-hover-color-var:hover {
   padding: 0;
 }
 
-.u-footer .u-text-4 {
+.u-footer .u-text-3 {
   margin: 10px 0 0 auto;
 }
 
@@ -47223,7 +47218,7 @@ a.u-link.u-text-hover-color-var:hover {
   padding: 0;
 }
 
-.u-footer .u-text-5 {
+.u-footer .u-text-4 {
   margin: 10px 0 0 auto;
 }
 
@@ -47247,7 +47242,7 @@ a.u-link.u-text-hover-color-var:hover {
   padding: 30px;
 }
 
-.u-footer .u-text-6 {
+.u-footer .u-text-5 {
   font-weight: 700;
   margin: 0 0 0 auto;
 }
@@ -47288,7 +47283,7 @@ a.u-link.u-text-hover-color-var:hover {
   margin: 20px 0 0;
 }
 
-.u-footer .u-text-7 {
+.u-footer .u-text-6 {
   margin: 42px 0 0 auto;
 }
 
@@ -47334,23 +47329,19 @@ a.u-link.u-text-hover-color-var:hover {
 
   .u-footer .u-text-1 {
     margin-right: 0;
+    margin-left: 0;
   }
 
   .u-footer .u-text-2 {
     margin-right: 0;
-    margin-left: 0;
+    margin-left: 46px;
   }
 
   .u-footer .u-text-3 {
     margin-right: 0;
-    margin-left: 46px;
   }
 
   .u-footer .u-text-4 {
-    margin-right: 0;
-  }
-
-  .u-footer .u-text-5 {
     margin-right: 0;
   }
 
@@ -47384,7 +47375,7 @@ a.u-link.u-text-hover-color-var:hover {
     min-height: 100px;
   }
 
-  .u-footer .u-text-3 {
+  .u-footer .u-text-2 {
     margin-left: 10px;
   }
 
@@ -47421,15 +47412,11 @@ a.u-link.u-text-hover-color-var:hover {
     padding-right: 10px;
   }
 
-  .u-footer .u-text-2 {
-    margin-top: 152px;
-  }
-
-  .u-footer .u-text-4 {
+  .u-footer .u-text-3 {
     margin-top: -183px;
   }
 
-  .u-footer .u-text-5 {
+  .u-footer .u-text-4 {
     margin-top: 99px;
   }
 
@@ -47444,7 +47431,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 892px;
+    min-height: 820px;
   }
 
   .u-footer .u-layout-wrap-1 {
@@ -47462,24 +47449,26 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-footer .u-layout-cell-2 {
-    min-height: 305px;
+    min-height: 236px;
+  }
+
+  .u-footer .u-text-1 {
+    width: auto;
   }
 
   .u-footer .u-text-2 {
-    width: auto;
-    margin-top: 10px;
+    width: 231px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-footer .u-text-3 {
-    margin-left: 89px;
-  }
-
-  .u-footer .u-text-4 {
+    width: auto;
     margin-top: 10px;
     margin-left: 0;
   }
 
-  .u-footer .u-text-5 {
+  .u-footer .u-text-4 {
     width: auto;
     margin-top: 10px;
     margin-left: 0;
@@ -47487,9 +47476,10 @@ a.u-link.u-text-hover-color-var:hover {
 
   .u-footer .u-btn-5 {
     font-size: 1.25rem;
+    margin-right: auto;
   }
 
-  .u-footer .u-text-6 {
+  .u-footer .u-text-5 {
     margin-right: auto;
   }
 
@@ -47505,14 +47495,14 @@ a.u-link.u-text-hover-color-var:hover {
     margin-left: 0;
   }
 
-  .u-footer .u-text-7 {
+  .u-footer .u-text-6 {
     width: auto;
     margin-left: 0;
   }
 
   .u-footer .u-social-icons-1 {
     margin-left: auto;
-    margin-bottom: -918px;
+    margin-bottom: -990px;
   }
 }
 
