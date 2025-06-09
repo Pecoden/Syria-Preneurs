@@ -1022,7 +1022,6 @@
 }
 
 .u-section-5 .u-input-7 {
-  background-image: none;
   --radius: 50px;
   height: 48px;
 }
@@ -1124,6 +1123,18 @@
 .u-section-5 .u-input-15 {
   --radius: 50px;
   height: 48px;
+}
+
+.u-section-5 .u-form-group-16 {
+  margin-left: 0;
+}
+
+.u-section-5 .u-label-16 {
+  font-weight: 700;
+}
+
+.u-section-5 .u-input-16 {
+  --radius: 50px;
 }
 
 .u-section-5 .u-btn-1 {
@@ -1265,6 +1276,10 @@
 
   .u-section-5 .u-form-1 {
     width: 880px;
+  }
+
+  .u-section-5 .u-input-16 {
+    height: 48px;
   }
 
   .u-section-5 .u-layout-wrap-1 {
