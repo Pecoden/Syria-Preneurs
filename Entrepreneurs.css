@@ -1527,6 +1527,7 @@
 .u-section-8 .u-btn-1 {
   --radius: 24px;
   width: 100%;
+  background-image: none;
   padding: 10px 0 11px;
 }
 
@@ -1559,7 +1560,6 @@
   background-image: none;
   width: 40px;
   height: 40px;
-  color: rgb(255, 255, 255) !important;
   margin: -15px 0 0 auto;
   padding: 9px;
 }
