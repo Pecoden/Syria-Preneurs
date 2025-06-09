@@ -232,6 +232,7 @@
 
 .u-section-1 .u-input-16 {
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-17 {
@@ -244,7 +245,6 @@
 
 .u-section-1 .u-input-17 {
   --radius: 50px;
-  height: 48px;
 }
 
 .u-section-1 .u-form-group-18 {
@@ -257,6 +257,7 @@
 
 .u-section-1 .u-input-18 {
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-form-group-19 {
@@ -269,7 +270,6 @@
 
 .u-section-1 .u-input-19 {
   --radius: 50px;
-  height: 48px;
 }
 
 .u-section-1 .u-form-group-20 {
@@ -282,6 +282,7 @@
 
 .u-section-1 .u-input-20 {
   --radius: 50px;
+  height: 48px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -304,15 +305,11 @@
     width: 880px;
   }
 
-  .u-section-1 .u-input-16 {
+  .u-section-1 .u-input-17 {
     height: 48px;
   }
 
-  .u-section-1 .u-input-18 {
-    height: 48px;
-  }
-
-  .u-section-1 .u-input-20 {
+  .u-section-1 .u-input-19 {
     height: 48px;
   }
 }
